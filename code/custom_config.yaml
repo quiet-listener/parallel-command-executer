@@ -1,0 +1,8 @@
+---
+  172.31.30.165:
+    ##hostname per host config similarily you can provide any no.. of per host config
+    user: ubuntu
+    #port
+    port: 22
+    #if  key required else can remove this line
+    private_key: /<fullpath>/<pem_file_name>.pem

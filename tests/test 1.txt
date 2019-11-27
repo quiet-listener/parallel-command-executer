@@ -1,0 +1,7 @@
+web-dc1-rack1-10.somecompany.com
+web-dc1-rack10-02.somecompany.com
+web-dc1-rack1-13.somecompany.com
+web-dc1-rack29-02.somecompany.com
+web-dc1-rack14-10.somecompany.com
+web-dc1-rack10-10.somecompany.com
+web-dc1-rack11-10.somecompany.com
