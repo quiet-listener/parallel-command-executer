@@ -1,8 +1,10 @@
 # Parallel-Executer
 Executing commands across a fleet of servers is a usual activity for an SRE. Some commands like “uptime” can be executed in all nodes without any impact, where as some commands  like “service restart” require careful batching of servers to avoid any sort of potential downtime. Forease of explanation, let's call the former type of commands as “harmless-commands” and latter ones as “needs-caution-commands”. This script would execute a command across the maximum number of servers in parallel without any downtime. 
-*Hostnames contain both rack and slot information.*
-e.g. web-dc1-rack1-10.somecompany.com  => rack : rack1 , slot : 10
- **needs-caution-commands** :  At any given time, only one node from a rack should be running the command.
+
+<br/>
+ 
+ **needs-caution-commands** :  At any given time, only one node from a rack should be running the command. Assumed *Hostnames contain both rack and slot information.* in case of "need-caution-commands". e.g. web-dc1-rack1-10.somecompany.com  => rack : rack1 , slot : 10
+
 
 
 # Requirements:
