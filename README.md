@@ -3,7 +3,7 @@ Executing commands across a fleet of servers is a usual activity for an SRE. Som
 
 <br/>
  
- **needs-caution-commands** :  At any given time, only one node from a rack should be running the command. Assumed *Hostnames contain both rack and slot information.* in case of "need-caution-commands". e.g. web-dc1-rack1-10.somecompany.com  => rack : rack1 , slot : 10
+ **needs-caution-commands** :  At any given time, only one node from a rack should be running the command. Assumed *Hostnames contain both rack and slot information* in case of "need-caution-commands". <br/> e.g. web-dc1-rack1-10.somecompany.com  => rack : rack1 , slot : 10
 
 
 
